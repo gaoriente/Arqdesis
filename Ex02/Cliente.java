@@ -1,4 +1,4 @@
-package model;
+package Ex02;
 
 import to.ClienteTO;
 import dao.ClienteDAO;
