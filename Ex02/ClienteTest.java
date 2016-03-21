@@ -1,4 +1,4 @@
-package Ex02;
+package test;
 
 import static org.junit.Assert.assertEquals;
 import model.Cliente;

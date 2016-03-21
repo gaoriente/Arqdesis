@@ -1,4 +1,4 @@
-package Ex02;
+package to;
 
 public class ClienteTO {
 	private int id;
