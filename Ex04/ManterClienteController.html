@@ -1,0 +1,26 @@
+<html>
+    <head>
+        
+        <title>Cliente</title>
+        <meta charset="utf-8">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        
+        <script src="js/jquery-1.12.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+            
+        
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    
+    <body>
+            <%ClienteTO to = (ClienteTO)request.getAttribute("cliente"); %>
+                Id: <%=to.getId() %><br>
+                Nome: <%=to.getNome() %><br>
+                Fone: <%=to.getFone() %><br>
+                ID: <%=to.getId() %><br>
+                Acao: <%=to.getAcao() %><br>
+                
+                                
+            <h1>Exercicio 4</h1>
+    </body>
+</html>
