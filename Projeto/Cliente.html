@@ -1,0 +1,28 @@
+<html>
+    <head>
+        
+        <title>Cliente</title>
+        <meta charset="utf-8">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        
+        <script src="js/jquery-1.12.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+            
+        
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    
+    <body>
+            <%ClienteTO to = (ClienteTO)request.getAttribute("cliente"); %>
+                Id: <%=to.getId() %><br>
+                Nome: <%=to.getNome() %><br>
+                Fone: <%=to.getFone() %><br>
+                Inserir: <%=to.getInserir() %><br>
+                Alterar: <%=to.getAlterar() %><br>
+                Consultar: <%=to.getConsultar() %><br>
+                Excluir: <%=to.getExcluir() %><br>
+                
+                                
+            <h1>Arqdesis - Exercicio 4</h1>
+    </body>
+</html>
